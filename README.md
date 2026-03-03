@@ -111,26 +111,6 @@ This performs non-linear least squares optimization.
 
 ---
 
-### 7. Results and Visualization
-
-#### Plot 1: Full Range PDF Fit
-
-Displays:
-
-. Histogram of normalized transformed data  
-. Fitted PDF curve  
-. Legend and title  
-
-#### Plot 2: Zoomed PDF Fit (1st – 99th Percentile)
-
-Displays:
-
-. Same histogram and fitted curve  
-. X-axis limited between 1st and 99th percentiles  
-. Clearer visualization of central distribution  
-. Reduced distortion from extreme outliers  
-
----
 
 ## Output
 
@@ -144,12 +124,6 @@ mu = [estimated value]
 These parameters define the fitted exponential-quadratic PDF.
 
 ---
-
-## Notes
-
-. If originally created in Google Colab, update `/content/data.csv` to local file path  
-. Ensure the dataset contains the NO₂ column  
-. Confirm roll number is set to 102303412  
 
 ---
 
